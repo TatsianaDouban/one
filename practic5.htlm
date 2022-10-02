@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>week5</title>
+    <head>
+        <link rel="stylesheet" href="styles.css1/stylescss"/>
+    <style>
+    
+    </style>
+    </head>
+<body>
+    <div class="flex-container">
+<header class="flex-item item-1">Header</header>
+<main>
+    <section class="flex-item item-2">[Основная часть]
+    <div id="forp"><p class="section1 sec1">[Еще1]</p>
+<p class="section1 sec2">[Еще2]</p>
+    <p class="section1 sec3">[Еще3]</p></div>
+</section>
+    <aside class="flex-item item-3">[Боковая часть]</aside>
+</main>
+<footer class="flex-item item-5">
+    <div class="section one">[Секция футера1]</div>
+    <div class="section two">[Секция футера2]</div>
+    <div class="section three">[Секция футера3]</div>
+    <div class="section four">[Секция футера4]</div>
+</footer>
+
+
+</body>
+</html>

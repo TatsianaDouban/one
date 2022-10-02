@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    display: flex;
+    flex: 1;
+}
+
+aside {
+    flex: 1;
+    /* задаем размер */
+}
+
+section {
+    flex: 2;
+    /* размер блока */
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 3vh;
+    /* clear: both; */
+
+}
+
+.section {
+    padding: 10px;
+    margin: 10px;
+    border: solid 1px cornsilk;
+    background: beige;
+    flex-grow: 1;
+}
+
+.flex-item {
+    padding: 20px;
+    color: black;
+    text-align: center;
+    flex-wrap: wrap;
+    font-size: 3vh;
+}
+
+#forp {
+    display: inline-flex;
+    min-height: 70vh;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
+
+}
+
+.section1 {
+    background: orange;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    height: 40px;
+}
+
+.item-2 {
+    display: flex;
+    /* flex-flow: wrap; */
+}
+
+.sec1 {
+    background-color: blue;
+    width: 400px;
+}
+
+.sec2 {
+    background-color: rgb(255, 0, 0);
+    width: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.item-1 {
+    background: gray
+}
+
+.item-2 {
+    background: beige;
+}
+
+.item-3 {
+    background: rgb(179, 216, 123);
+}
+
+.item-5 {
+    background: gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media screen and (max-width:650px) {
+        main{
+            flex-direction:column;
+        }    
+        section{
+            order:-1;
+        }    
+    } */
